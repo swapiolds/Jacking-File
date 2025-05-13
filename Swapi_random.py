@@ -106,7 +106,7 @@ except Exception:
 
 def update_stats():
     # @matrx_Py ;
-    sysdontwrite = f"\r{C1}𝐇𝐢𝐭𝐬{P1} : {hits}{J21} |{Z} 𝐁𝐚𝐝 𝐈𝐆{P} : {J21}{bad_insta}{P} | {Z}𝐁𝐚𝐝 𝐄𝐦𝐚𝐢𝐥{B} : {J21}{bad_email}{Z} | {P}𝐆𝐨𝐨𝐝 𝐈𝐆𝐢{Z} : {J21}{good_ig}"""
+    sysdontwrite = f"\r{C1}𝐇𝐢𝐭𝐬{P1} : {hits}{J21} |{Z} 𝐁𝐚𝐝 𝐈𝐆{P} : {J21}{bad_insta}{P} | {Z}𝐁𝐚𝐝 𝐄𝐦𝐚𝐢𝐥{B} : {J21}{bad_email}{Z} | {P}𝐆𝐨𝐨𝐝 𝐈𝐆{Z} : {J21}{good_ig}"""
     sys.stdout.write(sysdontwrite)
     sys.stdout.flush()
 
